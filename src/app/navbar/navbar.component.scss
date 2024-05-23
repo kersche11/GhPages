@@ -1,0 +1,54 @@
+
+
+.navbar a:hover {
+  color: black; /* Textfarbe ändern */
+  background-color: yellow; /* Hintergrundfarbe ändern */
+  padding: 5px 10px; /* Innenabstand hinzufügen */
+  border-radius: 5px; /* Abrundung der Ecken */
+}
+
+.navbar button:hover {
+  background-color: yellow; /* Hintergrundfarbe ändern */
+  color: black; /* Textfarbe ändern */
+  padding: 5px 10px; /* Innenabstand hinzufügen */
+  border-radius: 5px; /* Abrundung der Ecken */
+}
+
+.navbar-space {
+  margin-right: 20px; /* Hier kannst du den Abstand anpassen */
+}
+
+.button {
+  /* Beispielgrößen - passe sie nach Bedarf an */
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+
+.navbar {
+  font-size: 1.6rem;
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between; /* Elemente links und rechts ausrichten */
+  align-items: center; /* Vertikal zentrieren */
+
+  height: 50px;
+
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar .btn {
+  border: 2px solid black; /* Umrandung hinzufügen */
+
+  width: 150px; /* Feste Breite für den Button */
+  height:50px; /* Feste Höhe für den Button */
+}
+
+
+.green-background {
+  background-color: green; /* Hintergrundfarbe grün */
+}
